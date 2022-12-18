@@ -1,0 +1,41 @@
+html{
+    box-sizing: border-box;
+}
+
+.container{
+    align-items: center;
+    max-width: 65vw;
+    display: flex;
+}
+
+.week{
+    display: flex;
+    align-items: center;
+    /* flex-basis: 100%; */
+    flex-wrap: wrap;
+}
+
+.notes{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    flex-basis: 10%;
+}
+.notes span{
+    height: 17.7vh;
+}
+.week :nth-child(7){
+    flex-basis: 100%;
+}
+span{
+    padding: 3rem;
+    border: 1px solid black;
+    text-align: center;
+    flex-grow: 1;
+}
+.week :nth-child(1)
+{
+    width: 100%;
+}
