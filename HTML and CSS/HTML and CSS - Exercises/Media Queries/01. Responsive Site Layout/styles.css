@@ -1,0 +1,49 @@
+body{
+    display: grid;
+}
+header{
+    border-radius: 3px;
+    background-color: rgb(181, 216, 255);
+    padding: 5px 10px;
+    border: 8px solid white;
+}
+main{
+    grid-area: main;
+    border-radius: 3px;
+    background-color: rgb(181, 216, 255);
+    padding: 5px 10px;
+    border: 8px solid white;
+    /* display: inline-block; */
+    /* width: 80%; */
+}
+aside{
+    border-radius: 3px;
+    background-color: rgb(181, 216, 255);
+    padding: 5px 10px;
+    border: 8px solid white;
+    /* display: inline-block; */
+    /* width: 12%; */
+}
+footer{
+    border-radius: 3px;
+    background-color: rgb(181, 216, 255);
+    padding: 5px 10px;
+    border: 8px solid white;
+}
+h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+}
+
+a{
+display: block;
+padding: 5px 0px;
+color: rgb(86, 40, 129);
+text-decoration: none;
+}
