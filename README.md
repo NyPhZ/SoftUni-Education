@@ -1,2 +1,2 @@
 # SoftUni-Education
-Solved homework task durring my education at Software University!
+Solved homework tasks durring my education at Software University!
