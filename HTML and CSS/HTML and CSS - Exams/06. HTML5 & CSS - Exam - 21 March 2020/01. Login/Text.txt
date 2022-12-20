@@ -1,4 +1,0 @@
-Account Login
-Username
-Password
-Login
