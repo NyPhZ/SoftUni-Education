@@ -1,0 +1,23 @@
+body{padding: 10rem;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    height: 60vh;
+}
+
+section{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    
+}
+
+img{
+    align-self: center;
+    width: 10%;
+    border-radius: 8px;
+    height: 70%;
+}
+
+section :nth-child(2){
+    width: 40%;
+}

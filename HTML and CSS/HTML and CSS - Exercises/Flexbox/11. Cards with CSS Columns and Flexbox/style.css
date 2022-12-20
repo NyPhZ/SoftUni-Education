@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(238, 238, 238);
+    padding: 10rem;
+}
+
+.masonry{
+    display: flex;
+    gap: 2rem;
+   
+}
+.card{
+    width: 100%;
+    border-radius: 10px;
+    background-color: lightgreen;
+    overflow: hidden;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2rem;
+
+}
+
+
+.card section{
+    margin: 1rem;
+}
+.card footer{
+    align-items: flex-end;
+    border-top: 1px solid black;
+}
+.card img{
+    width: 100%;
+}
+
+/* -------------------FLEXBOX GRID---------------------------- */
+.flex-grid{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.card-grid{
+    width: 30%;
+    border-radius: 10px;
+    background-color: lightgreen;
+    overflow: hidden;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.card-grid footer{
+    
+    align-self: flex-end;
+    border-top: 1px solid  black;
+}
+.card-grid img{
+    width: 100%;
+}
