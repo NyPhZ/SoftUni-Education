@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Password Generator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<h1>Password Generator</h1>
+		<label for="password-length">Password Length</label>
+		<input type="range" id="password-length" min="4" max="24" value="8" oninput="rangeValue.innerText = this.value">
+		<p id="rangeValue">8</p>
+		<div class="mylabel">
+			<input type="checkbox" id="include-upper" checked>
+			<div class="slidinggroove"></div>
+			<label class="mylabel" for="include-upper" name="skills"><p class="labelterm">Uppercase Letters</p></label>
+		  </div>
+		  
+		  <div class="mylabel">
+			<input type="checkbox" id="include-lower">
+			<div class="slidinggroove"></div>
+			<label class="mylabel" for="include-lower" name="skills"><p class="labelterm">Lowercase Letters</p></label>
+		  </div>
+
+		  <div class="mylabel">
+			<input type="checkbox" id="include-numbers" checked>
+			<div class="slidinggroove"></div>
+			<label class="mylabel" for="include-numbers" name="skills"><p class="labelterm">Include Numbers</p></label>
+		  </div>
+
+		  <div class="mylabel">
+			<input type="checkbox" id="include-symbols">
+			<div class="slidinggroove"></div>
+			<label class="mylabel" for="include-symbols" name="skills"><p class="labelterm">Include Symbols</p></label>
+		  </div>
+
+		<button id="generate-btn">Generate Password</button>
+		<input type="text" id="password" readonly>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>

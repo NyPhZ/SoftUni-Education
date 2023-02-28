@@ -1,0 +1,5 @@
+Shoud work on fullscreen with most smartphones, I tested it with:
+Samsung S20 Ultra;
+Pixel 5;
+Iphone 12Pro;
+Iphone XR;

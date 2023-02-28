@@ -1,0 +1,162 @@
+/* Default styles */
+
+/* #1D85CD-blue font */
+/* #2D3138 - button fill 
+#1f2124 - background
+
+ 
+/* #white-mode:hover{
+  color: #424242;
+   /* color: #1991FF; *-white/
+   #19ACFF; - hover blue*/
+body {
+	font-family: Arial, sans-serif;
+	background:linear-gradient(to right, rgb(111, 14, 190), rgb(183, 8, 218));
+}
+/* slider */
+.mylabel{
+	position: relative;
+	display: block;
+	width: 40px;
+	height: 20px;
+	margin-bottom: 15px;
+	cursor: pointer;
+  }
+  /* Hide default HTML checkbox */
+  .mylabel input{
+	display: none;
+  }
+  
+  .slidinggroove{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: #ababab;
+	border-radius: 20px;
+	transition: all 0.3s ease;
+  }
+  
+  .slidinggroove:after{
+	position: absolute;
+	content: "";
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	background: #fff;
+	top: 1px;
+	left: 1px;
+	transition: all 0.3s ease;
+  }
+  
+  input:checked + .slidinggroove{
+	background: #19ACFF;
+  }
+  
+  input:checked + .slidinggroove:after{
+  transform: translateX(21px);
+  }
+  
+  .labelterm{
+	position: relative;
+	margin-left: 65px;
+	margin-top: 20px;
+	font-size: 13px;
+	color: #1D85CD;
+	font-family: 'Roboto', sans-serif;
+  }
+  
+  .ontext{
+	position: absolute;
+	top: 10px;
+	left: 7px;
+	font-size: 9px;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+  }
+  
+  .offtext{
+	position: absolute;
+	top: 10px;
+	left: 36px;
+	font-size: 9px;
+	color: #333333;
+	font-family: 'Roboto', sans-serif;
+  }
+/* end slider */
+
+.container {
+	max-width: 30vw;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #1f2124;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h1 {
+	text-align: center;
+	color: #1D85CD;
+}
+
+label {
+	display: block;
+	margin-top: 10px;
+	color: #1D85CD;
+}
+
+button {
+	display: block;
+	margin: 20px auto;
+	padding: 10px;
+	background-color: #1D85CD;
+	color: #ffffff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #19ACFF;
+	color: black;
+}
+
+#password {
+	display: block;
+	margin: 20px auto;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+#rangeValue{
+	color: #1D85CD;
+	margin: 0;
+}
+
+/* Media queries for smartphones */
+@media screen and (max-width: 600px) {
+	.container {
+		padding: 10px;
+	}
+
+	label {
+		display: inline-block;
+		margin-top: 20px;
+		margin-right: 10px;
+	}
+
+	input[type="number"], input[type="checkbox"] {
+		margin-left: 0;
+	}
+
+	button {
+		margin: 20px 0;
+		width: 100%;
+	}
+
+	#password {
+		margin: 20px 0;
+	}
+}

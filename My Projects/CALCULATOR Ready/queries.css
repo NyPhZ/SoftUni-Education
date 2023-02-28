@@ -1,0 +1,26 @@
+@media screen and (max-width: 1000px) {
+  .calculator-grid {
+    margin-top: 0;
+    margin-bottom: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    min-width: auto;
+    min-height: auto;
+    border: none;
+
+  }
+
+  body{
+    background-color: #1f2124;
+    display: flex;
+    width: fit-content;
+    background: none;
+  }
+
+  html{
+    background-color: #1f2124;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  }
